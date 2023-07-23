@@ -6,6 +6,9 @@ import StatefulGreeting from './components/StatefulGreeting';
 import EventsFunctional from './components/EventsFunctional';
 import EventsClass from './components/EventsClass';
 import LineBreaks from './components/LineBreaks';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import NestingComponents from './components/NestingComponents';
 
 function App() {
   return (
@@ -16,6 +19,12 @@ function App() {
       <LineBreaks lesson='Events'/>
       <EventsFunctional />
       <EventsClass />
+      <LineBreaks lesson='Conditional Rendering' />
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional connected={true}/>
+      <LineBreaks lesson='Nesting Components'/>
+      <NestingComponents />
+      <LineBreaks lesson='Methods as props'/>
     </div>
   );
 }

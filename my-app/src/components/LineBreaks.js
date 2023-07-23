@@ -2,7 +2,11 @@ import React from 'react'
 
 const LineBreaks = (props) => {
   return (
-    <div><h1>{props.lesson}</h1></div>
+    <div>
+      <br></br>
+      <hr></hr>
+      <h1>{props.lesson}</h1>
+    </div>
   )
 }
 
