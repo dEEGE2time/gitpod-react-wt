@@ -9,11 +9,12 @@ import LineBreaks from './components/LineBreaks';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 import NestingComponents from './components/NestingComponents';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
 function App() {
   return (
     <div className="App">
-      <LineBreaks lesson='Components'/>
+      {/* <LineBreaks lesson='Components'/>
       <StatefulGreeting greeting="I'm a stateful class component!" name="dEEGE" />
       <FunctionalGreetingWithProps greeting="nice to meet you!" name="dEEGE" age="99" />
       <LineBreaks lesson='Events'/>
@@ -23,8 +24,9 @@ function App() {
       <ConditionalRenderingClass />
       <ConditionalRenderingFunctional connected={true}/>
       <LineBreaks lesson='Nesting Components'/>
-      <NestingComponents />
+      <NestingComponents /> */}
       <LineBreaks lesson='Methods as props'/>
+      <MethodsAsPropsParent />
     </div>
   );
 }
