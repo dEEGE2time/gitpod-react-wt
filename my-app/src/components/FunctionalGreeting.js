@@ -10,6 +10,6 @@ import React from "react";
 // !!!                                              !!!
 
 
-const FunctionalGreeting = () => <h1>Hello from dEEGE!</h1>
+const FunctionalGreeting = () => <h2>Hello from dEEGE!</h2>
 
 export default FunctionalGreeting;
