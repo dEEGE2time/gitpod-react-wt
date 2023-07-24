@@ -12,6 +12,10 @@ import NestingComponents from './components/NestingComponents';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import RenderingLists from './components/RenderingLists';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
+import ControlledForm from './components/ControlledForm';
+
 
 function App() {
   return (
@@ -30,9 +34,15 @@ function App() {
       <LineBreaks lesson='Methods as props'/>
       <MethodsAsPropsParent />
       <LineBreaks lesson='Rendering Lists'/>
-      <RenderingLists /> */}
-      {/* <LineBreaks lesson='Methods Lifecycle'/> */}
+      <RenderingLists />
+      <LineBreaks lesson='LifeCycles CDM'/>
       <LifeCyclesCDM />
+      <LineBreaks lesson='LifeCycles CDU'/>
+      <LifeCyclesCDU />
+      <LineBreaks lesson='LifeCycles CMU'/>
+      <LifeCyclesCWU /> */}
+      <LineBreaks lesson='Forms'/>
+      <ControlledForm />
     </div>
   );
 }
