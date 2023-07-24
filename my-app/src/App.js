@@ -15,7 +15,8 @@ import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
 import ControlledForm from './components/ControlledForm';
-
+import UncontrolledForm from './components/UncontrolledForm';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
@@ -40,9 +41,14 @@ function App() {
       <LineBreaks lesson='LifeCycles CDU'/>
       <LifeCyclesCDU />
       <LineBreaks lesson='LifeCycles CMU'/>
-      <LifeCyclesCWU /> */}
-      <LineBreaks lesson='Forms'/>
+      <LifeCyclesCWU />
+      <LineBreaks lesson='Controlled Forms'/>
       <ControlledForm />
+      <LineBreaks lesson='Uncontrolled Forms'/>
+      <UncontrolledForm /> */}
+      <LineBreaks lesson='Filter search'/>
+      <SearchBar />
+
     </div>
   );
 }
